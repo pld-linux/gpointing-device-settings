@@ -4,7 +4,7 @@ Version:	1.5.1
 Release:	1
 License:	LGPL v3+
 Group:		X11/Applications
-Source0:	http://sourceforge.jp/projects/gsynaptics/downloads/45812/%{name}-%{version}.tar.gz
+Source0:	http://jaist.dl.sourceforge.jp/gsynaptics/45812/%{name}-%{version}.tar.gz
 # Source0-md5:	1d1491473df8eabca3c15c997a975d7f
 Patch0:		%{name}-%{version}-plugin.patch
 Patch1:		%{name}-%{version}-reboot.patch
