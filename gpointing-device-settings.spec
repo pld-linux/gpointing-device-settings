@@ -1,3 +1,7 @@
+#
+# TODO:	- fix build on x86_64
+#	- devel/static subpackages
+#
 Summary:	GUI tool for setting pointing device
 Name:		gpointing-device-settings
 Version:	1.5.1
@@ -16,6 +20,7 @@ BuildRequires:	gnome-settings-daemon-devel
 BuildRequires:	gtk+2-devel >= 2.14.0
 BuildRequires:	intltool >= 0.35.0
 BuildRequires:	pkgconfig >= 0.9.0
+ExclusiveArch:	%{ix86}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
